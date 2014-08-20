@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Input Types</title>
+	</head>
+
+	<body>
+		<h1>Formas de input en HTML5</h1>
+		<form method="post" action="#">
+			<p>
+				<label>Color:
+					<input type="color" autofocus/>
+				</label>
+			</p>
+			<p>
+				<label>Fecha:
+					<input type="date"/>
+				</label>
+			</p>
+			<p>
+				<label>Datetime:
+					<input type="datetime"/>
+				</label>
+			</p>
+			<p>
+				<label>Datetime-local:
+					<input type="datetime-local"/>
+				</label>
+			</p>
+			<p>
+				<label>Email:
+					<input type="email" placeholder="direccion@dominio.com" required/>
+				</label>
+			</p>
+			<p>
+				<label>Mes:
+					<input type="month"/>
+				</label>
+			</p>
+			<p>
+				<label>Número:
+					<input type="number"
+					min="0"
+					max="7"
+					step="1"
+					value="4"/>
+				</label>Selecciona un número del 1 al 7
+			</p>
+			<p>
+				<label>Rango:
+					0<input type="range"
+					min="0"
+					max="20"
+					value="10"/>20
+				</label>
+			</p>
+			<p>
+				<label>Búsqueda:
+					<input type="search" placeholder="término de búsqueda"/>
+				</label>
+			</p>
+			<p>
+				<label>Teléfono:
+					<input type="tel" placeholder="(###) ###-####"
+						pattern="\(\d{3}\) +\d{3}-\d{4}" required/>
+				</label>
+			</p>
+			<p>
+				<label>Hora:
+					<input type="time"/>
+				</label>
+			</p>
+		</form>
+
+
+		<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+		<audio controls>
+  			<source src="horse.ogg" type="audio/ogg">
+  			<source src="horse.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+	</body>
+</html>
